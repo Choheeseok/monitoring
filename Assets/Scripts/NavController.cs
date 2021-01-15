@@ -18,15 +18,21 @@ public class NavController : MonoBehaviour
     public Transform back;
 
 
-    public bool isMoving = false;
+    public bool isMoving;
     private Transform desiredTransform;
     private HashSet<Transform> directions;
 
-    private bool rotationCompleted = false;
-    private bool translateCompleted = false;
+    private bool rotationCompleted;
+    private bool translateCompleted;
+    private IEnumerator rotationRoutine;
+    private IEnumerator positionRoutine;
     void Start()
     {
         isMoving = false;
+        rotationCompleted = false;
+        translateCompleted = false;
+        rotationRoutine = null;
+        positionRoutine = null;
         directions = new HashSet<Transform>()
         {
             left, right, up, down, front, back
@@ -55,17 +61,31 @@ public class NavController : MonoBehaviour
             }
         }
 
-        if (true == isMoving)
+        if (true == isMoving )
         {
-            StartCoroutine(InterpolateQuaternion(Camera.main.transform.rotation, desiredTransform.rotation, 0.5f));
-            Vector3 desiredPosition = targetObject.position - desiredTransform.forward * 10.0f;
-            StartCoroutine(InterpolateVector3(Camera.main.transform.position, desiredPosition, 0.5f));
+            if (null == rotationRoutine)
+            {
+                Quaternion desiredRotation = desiredTransform.rotation;
+                rotationRoutine = InterpolateQuaternion(Camera.main.transform.rotation, desiredRotation, .5f);
+                StartCoroutine(rotationRoutine);
+            }
 
-            if (translateCompleted && rotationCompleted)
+            if (null == positionRoutine)
+            {
+                Vector3 desiredPosition = targetObject.position - desiredTransform.forward * 10.0f;
+                desiredPosition.y += 2.0f;
+                positionRoutine = InterpolateVector3(Camera.main.transform.position, desiredPosition, .5f);
+                StartCoroutine(positionRoutine);
+            }
+            
+            if (true == translateCompleted && true == rotationCompleted)
             {
                 isMoving = false;
                 translateCompleted = false;
                 rotationCompleted = false;
+                rotationRoutine = null;
+                positionRoutine = null;
+                desiredTransform = null;
             }
         }
     }
@@ -85,6 +105,7 @@ public class NavController : MonoBehaviour
         cameraController.xDeg = Camera.main.transform.rotation.eulerAngles.y;
         cameraController.yDeg = Camera.main.transform.rotation.eulerAngles.x;
         rotationCompleted = true;
+        yield return null;
     }
     
     private IEnumerator InterpolateVector3(Vector3 src, Vector3 dest, float time)
@@ -98,5 +119,6 @@ public class NavController : MonoBehaviour
         }
         Camera.main.transform.position = dest;
         translateCompleted = true;
+        yield return null;
     }
 }

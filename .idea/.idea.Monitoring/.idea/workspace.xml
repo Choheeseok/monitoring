@@ -20,40 +20,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b235be1c-0219-4fe6-8e63-4230552ef6dd" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Monitoring/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Monitoring/.idea/contentModel.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Monitoring/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Monitoring/.idea/indexLayout.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Monitoring/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Monitoring/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Audi R8.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Audi R8/Materials.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Audi R8/Materials/Audi R8-black.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Audi R8/Materials/Audi R8-black.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Audi R8/Materials/Audi R8-white.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Audi R8/Materials/Audi R8-white.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Audi R8/Materials/Back Headlight.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Audi R8/Materials/Back Headlight.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Audi R8/Materials/Tire.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Audi R8/Materials/Tire.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Audi R8/Models.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Audi R8/Models/Audi R8.dae" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Audi R8/Models/Audi R8.dae.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Audi R8/Models/Audi R8.fbx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Audi R8/Models/Audi R8.fbx.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Audi R8/Render.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Audi R8/Render/Audi R8-2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Audi R8/Render/Audi R8-2.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Audi R8/Render/Audi R8.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Audi R8/Render/Audi R8.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Audi R8/Textures.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Audi R8/Textures/Audi R8-black.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Audi R8/Textures/Audi R8-black.jpg.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Audi R8/Textures/Audi R8-white.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Audi R8/Textures/Audi R8-white.jpg.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Audi R8/Textures/Back Headlight.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Audi R8/Textures/Back Headlight.jpg.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Audi R8/Textures/Tire.tga" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Audi R8/Textures/Tire.tga.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/CameraController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/CameraController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/NavController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/NavController.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -77,8 +47,8 @@
       <list>
         <option value="$PROJECT_DIR$/Assets/models/AlwaysOnTop.shader" />
         <option value="$PROJECT_DIR$/Assets/models/NewSurfaceShader.shader" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/CameraController.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/NavController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/CameraController.cs" />
       </list>
     </option>
   </component>
@@ -97,6 +67,7 @@
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
@@ -129,6 +100,7 @@
       <updated>1610543631641</updated>
       <workItem from="1610543657813" duration="6620000" />
       <workItem from="1610619834296" duration="16296000" />
+      <workItem from="1610699677100" duration="4289000" />
     </task>
     <servers />
   </component>
@@ -147,18 +119,20 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="616" y="240" key="run.anything.popup" timestamp="1610638790946">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="616" y="240" key="run.anything.popup/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1610638790946" />
-    <state x="-1297" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1610547601906">
+    <state x="-1304" y="240" key="run.anything.popup" timestamp="1610702046820">
       <screen x="-1920" y="0" width="1920" height="1040" />
     </state>
-    <state x="-1297" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1610547601906" />
+    <state x="-1304" y="240" key="run.anything.popup/0.0.1920.1040/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1610702046820" />
+    <state x="616" y="240" key="run.anything.popup/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1610638790946" />
+    <state x="-1297" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1610702042927">
+      <screen x="-1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="-1297" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1610702042927" />
   </component>
 </project>
