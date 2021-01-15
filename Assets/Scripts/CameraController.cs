@@ -7,7 +7,7 @@ using UnityEngine;
 public class CameraController : MonoBehaviour
 {
     public Transform target;
-    public Transform carUI;
+    public UI ui;
     public float xRotateSpeed;
     public float yRotateSpeed;
     public int zoomSpeed;
@@ -20,19 +20,17 @@ public class CameraController : MonoBehaviour
     public float yDeg = 0.0f;
     private int yMinLimit = -90;
     private int yMaxLimit = 90;
-    private NavController nav;
-    
+
     void Awake()
     {
         transform.position = new Vector3(0,5,10);
         transform.rotation = Quaternion.Euler(30,180,0);
-        carUI.eulerAngles = target.eulerAngles;
     }
     void Start() { Init(); }
 
     void Update()
     {
-        if (false == nav.isMoving)
+        if (false == ui.isMoving)
         {
             if (Input.GetMouseButton(1))
                 //if (Input.GetMouseButton(2) && Input.GetKey(KeyCode.LeftControl))
@@ -56,14 +54,10 @@ public class CameraController : MonoBehaviour
                 Mathf.Clamp(transform.position.y, 0, maxHeight),
                 Mathf.Clamp(transform.position.z, -maxWidth, maxWidth));
         }
-        carUI.position = Camera.main.ScreenToWorldPoint(navPosition);
-        carUI.eulerAngles = target.eulerAngles;
     }
  
     private void Init()
     {
-        nav = carUI.GetComponent<NavController>();
-
         xDeg = Vector3.Angle(Vector3.right, transform.right );
         yDeg = Vector3.Angle(Vector3.up, transform.up );
         navPosition = new Vector3(Screen.width * navPosition.x, Screen.height * navPosition.y, navPosition.z);

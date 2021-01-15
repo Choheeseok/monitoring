@@ -20,10 +20,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b235be1c-0219-4fe6-8e63-4230552ef6dd" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Monitoring/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Monitoring/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Monitoring/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Monitoring/.idea/indexLayout.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Monitoring/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Monitoring/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/NavController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/NavController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/CameraController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/CameraController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/UI.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/UI.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/models/Floor/New Material.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/models/Floor/New Material.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/models/NavCar/Car.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/models/NavCar/Car.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/models/New Material 1.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/models/New Material 1.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/models/New Material.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/models/New Material.mat" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,9 +52,9 @@
       <list>
         <option value="$PROJECT_DIR$/Assets/models/AlwaysOnTop.shader" />
         <option value="$PROJECT_DIR$/Assets/models/NewSurfaceShader.shader" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/NavController.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/CameraController.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/UI.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/NavController.cs" />
       </list>
     </option>
   </component>
@@ -101,7 +106,7 @@
       <updated>1610543631641</updated>
       <workItem from="1610543657813" duration="6620000" />
       <workItem from="1610619834296" duration="16296000" />
-      <workItem from="1610699677100" duration="7275000" />
+      <workItem from="1610699677100" duration="14976000" />
     </task>
     <servers />
   </component>
