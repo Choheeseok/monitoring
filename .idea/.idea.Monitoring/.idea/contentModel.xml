@@ -6,6 +6,11 @@
     <e p="E:\ChoHeeseok\Outsourcing\monitoring" t="IncludeRecursive">
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
+        <e p="Nice Materials Pack 2" t="Include">
+          <e p="Shaders" t="Include">
+            <e p="Concrete Wall.shader" t="Include" />
+          </e>
+        </e>
         <e p="Scripts" t="Include">
           <e p="CameraController.cs" t="Include" />
           <e p="NavController.cs" t="Include" />

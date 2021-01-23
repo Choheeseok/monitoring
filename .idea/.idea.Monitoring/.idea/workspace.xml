@@ -21,14 +21,12 @@
   <component name="ChangeListManager">
     <list default="true" id="b235be1c-0219-4fe6-8e63-4230552ef6dd" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Monitoring/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Monitoring/.idea/indexLayout.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Monitoring/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Monitoring/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/CameraController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/CameraController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/UI.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/UI.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/models/Floor/New Material.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/models/Floor/New Material.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/models/NavCar/Car.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/models/NavCar/Car.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/models/New Material 1.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/models/New Material 1.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/models/New Material.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/models/New Material.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/models/Icons/back.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/models/Icons/back.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/models/Icons/front.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/models/Icons/front.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/models/Icons/left.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/models/Icons/left.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/models/Icons/right.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/models/Icons/right.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/models/Icons/top.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/models/Icons/top.png" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -107,6 +105,7 @@
       <workItem from="1610543657813" duration="6620000" />
       <workItem from="1610619834296" duration="16296000" />
       <workItem from="1610699677100" duration="14976000" />
+      <workItem from="1611398958706" duration="210000" />
     </task>
     <servers />
   </component>
